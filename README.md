@@ -73,7 +73,7 @@ You would better use a framework dedicated to classpath scanning, such as Classg
 
 Our dependency-injection container brings a major flaw: it tries to inject every field of its register components, preventing you to define non-injectable fields.
 
-In order to fix this, the next feature will be to inject only dependencies that are marked with the @Inject annotation. Please note that this change may break previously written tests and you will to fix these, too.
+In order to fix this, the next feature will be to inject only dependencies that are marked with the @Inject annotation. Please note that this change may break previously written tests and you will have to fix these, too.
 
 ### Step 8
 
